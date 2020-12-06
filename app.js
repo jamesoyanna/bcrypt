@@ -24,7 +24,7 @@ app.use(
 );
 app.use(bodyParser.json());
 
-app.post("/register", function (req, res) {
+app.post("/register",(req, res)=> {
   try {
     let x;
     console.log(req.body);
